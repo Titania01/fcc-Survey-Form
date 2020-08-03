@@ -25,7 +25,7 @@
   flex-direction: column;
   margin: 1rem 0;
 }
-
+.radio-buttons,
 .name,
 .email,
 .age {
@@ -34,7 +34,7 @@
   color: white;
   font-weight: bold;
 }
-
+#radio-button,
 #dropdown {
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
@@ -55,3 +55,4 @@
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
