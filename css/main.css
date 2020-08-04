@@ -25,15 +25,18 @@
   flex-direction: column;
   margin: 1rem 0;
 }
+.checkboxes,
 .radio-buttons,
 .name,
 .email,
 .age {
-  font-size: 1.125rem;
+  font-size: 1.025rem;
   margin-bottom: 0.5rem;
   color: white;
   font-weight: bold;
 }
+#checkboxes,
+#textarea,
 #radio-button,
 #dropdown {
   font-size: 1.125rem;
@@ -54,5 +57,13 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.submit-button {
+  font-size: 1.125;
+  background-color: rgb(71, 141, 71);
+  font-weight: bold;
+  
+  
 }
 
